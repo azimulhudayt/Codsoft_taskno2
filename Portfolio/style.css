@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 40%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 60px;
+    position: relative;
+    left: 100px;
+}
+
+.left-logo {
+    color: black;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.right {
+    color: white;
+}
+
+main {
+    height: 85vh;
+    background-color: black;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-section div {
+    line-height: 50px;
+}
+
+.left-section {
+    color: white;
+    margin: 250px 0;
+    padding-left: 20px;
+}
+
+.right-section img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.heading1 {
+    font-size: 3rem;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading2 {
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 124, 0);
+}
+
+#element {
+    display: inline-block;
+}
+
+.heading3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 50px;
+}
+
+.h-ruler {
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.825);
+}
+
+.skills-section {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+}
+
+.skill-head {
+    color: rgb(255, 124, 0);
+    font-size: 3.125rem;
+    padding-bottom: 30px;
+}
+
+.skill {
+    font-size: 1.25rem;
+}
+
+.project-section {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.project-head {
+    color: rgb(255, 124, 0);
+    font-size: 3.125rem;
+    padding-bottom: 30px;
+}
+
+.project-text {
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
+
+.project-first-block {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block1 {
+    background-color: white;
+    background-image: url("amazon\ project\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 520px;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.project-first-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-text1 {
+    font-size: 1.25rem;
+    margin-top: 80px;
+    text-decoration: underline;
+}
+
+.block2 {
+    background-color: white;
+    background-image: url("calculator\ project\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 520px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.resume-section {
+    background-color: black;
+    height: 80vh;
+    text-align: center;
+}
+
+.resume-header {
+    color: white;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.download-Button {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: rgb(255, 124, 0);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.download-Button:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
+    background-color: black;
+    height: 80vh;
+}
+
+.contact-info {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.icon button {
+    background-color: rgb(19, 30, 37);
+    color: rgb(255, 124, 0);
+    height: 60px;
+    width: 5%;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+.icon ul {
+    list-style: none;
+    text-align: left;
+}
+
+.icon ul p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: black;
+    height: 40vh;
+}
+
+.foot-panel {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2rem;
+    padding-top: 80px;
+}
+
+.social-icon button {
+    height: 45px;
+    width: 3%;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.social-icon p {
+    font-size: 0.825rem;
+    padding-top: 50px;
+}
